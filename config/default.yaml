@@ -1,0 +1,7 @@
+title: install sites for some titlename
+port: 8080
+eml:
+  account: 'your@account'
+  token:   'emlaunchertoken'
+  baseurl: 'https://emlauncher.someserver'
+  timeout: 10000

@@ -1,0 +1,26 @@
+{
+    "name"      : "EML-WRAPP-SERVER",
+    "version"   : "0.0.1",
+    "private"   : true,
+    "license"   : "MIT",
+    "scripts"   : {
+        "start"     : "node app.js -p 28080",
+        "local"     : "node app.js -p 28080",
+        "stable"    : "node app.js -p 28080"
+    },
+    "dependencies": {
+        "express"       : "latest",
+        "errorhandler"  : "latest",
+        "body-parser"   : "latest",
+        "method-override":"latest",
+        "opts"          : "latest",
+        "lodash"        : "latest",
+        "bluebird"      : "latest",
+        "axios"         : "latest",
+        "qr-image"      : "latest",
+        "moment"        : "latest",
+        "config"        : "latest",
+        "js-yaml"       : "latest",
+        "ect"           : "latest"
+    }
+}

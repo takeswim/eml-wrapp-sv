@@ -1,0 +1,13 @@
+<% extend 'layout' %>
+<h1><%- @title %><h1>
+
+    <% for app in @apps : %>
+        <h3><%= app.title %></h3>
+        <img src="./sites/qrcode?url=<%- app.install_url %>">
+        <li><%= app.platform %>
+        <li><%= app.description %>
+        <li><%= app.created %>
+        <li><a href="<%- app.install_url %>"><%- app.install_url %></a>
+        <hr>
+    <% end %>
+    
